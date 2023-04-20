@@ -8,7 +8,7 @@ public class App {
         enterCompetition();
 
         assert IwillWin  == true: "ow no";
-    }
+}
 
     static void enterCompetition(){
         IwillWin = false;
