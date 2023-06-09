@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="90.0" prefHeight="32.0" prefWidth="208.0" text="IKEA MANILA">
+         <font>
+            <Font name="Book Antiqua Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1" layoutX="18.0" layoutY="283.0" prefHeight="18.0" prefWidth="114.0" />
+      <Label fx:id="name2" layoutX="18.0" layoutY="314.0" prefHeight="18.0" prefWidth="114.0" />
+      <Label fx:id="name3" layoutX="19.0" layoutY="348.0" prefHeight="18.0" prefWidth="114.0" />
+      <Label fx:id="price1" layoutX="164.0" layoutY="283.0" />
+      <Label fx:id="price2" layoutX="164.0" layoutY="313.0" />
+      <Label fx:id="price3" layoutX="164.0" layoutY="347.0" />
+      <Label fx:id="qty1" layoutX="228.0" layoutY="283.0" />
+      <Label fx:id="qty2" layoutX="228.0" layoutY="313.0" />
+      <Label fx:id="qty3" layoutX="228.0" layoutY="347.0" />
+      <Label fx:id="lineTotalAmount1" layoutX="304.0" layoutY="282.0" />
+      <Label fx:id="lineTotalAmount2" layoutX="304.0" layoutY="312.0" />
+      <Label fx:id="lineTotalAmount3" layoutX="304.0" layoutY="346.0" />
+      <Label layoutX="164.0" layoutY="250.0" text="PRICE" />
+      <Label layoutX="214.0" layoutY="250.0" text="QUANTITY" />
+      <Label layoutX="278.0" layoutY="250.0" text="AMOUNT" />
+      <Label layoutX="228.0" layoutY="390.0" text="TOTAL  :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="finalAmount" layoutX="298.0" layoutY="390.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ImageView fitHeight="51.0" fitWidth="139.0" layoutX="116.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../CCOBJPGL_ASSIGNMENT_INF221-main/CCOBJPGL_ASSIGNMENT_INF221-main/exercise6/images/ikea.png" />
+         </image>
+      </ImageView>
+      <Line endX="112.0" layoutX="203.0" layoutY="169.0" startX="-152.5" />
+      <ImageView fitHeight="51.0" fitWidth="196.0" layoutX="85.0" layoutY="170.0">
+         <image>
+            <Image url="@../../../barr.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="138.0" prefHeight="32.0" prefWidth="208.0" text="Phone: 99988821">
+         <font>
+            <Font name="Book Antiqua Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="122.0" prefHeight="32.0" prefWidth="208.0" text="10am-8pm Monday to Friday">
+         <font>
+            <Font name="Book Antiqua Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="106.0" prefHeight="32.0" prefWidth="208.0" text="www.ikaemanila.com">
+         <font>
+            <Font name="Book Antiqua Bold" size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
